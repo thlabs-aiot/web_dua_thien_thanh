@@ -58,7 +58,8 @@
 
     html {
       scroll-behavior: smooth;
-      -webkit-text-size-adjust: 100%
+      -webkit-text-size-adjust: 100%;
+      overflow-x: hidden;
     }
 
     body {
@@ -2274,8 +2275,9 @@
 
       .menu,
       .lang,
+      .header .btn-order,
       .nav-right .icon-btn {
-        display: none
+        display: none !important;
       }
 
       .burger {
@@ -2566,11 +2568,11 @@
       }
 
       .logo-text b {
-        font-size: 1.15rem
+        font-size: 1.05rem
       }
 
       .logo-text span {
-        font-size: .5rem
+        display: none;
       }
 
       .logo-mark {
